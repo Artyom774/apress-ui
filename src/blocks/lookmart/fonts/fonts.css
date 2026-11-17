@@ -1,4 +1,14 @@
 @font-face {
+  font-family: 'Manrope';
+  src: url('Manrope-VariableFont_wght.woff2') format('woff2'),
+       url('Manrope-VariableFont_wght.woff') format('woff'),
+       url('Manrope-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Roboto Slab';
   src: url('RobotoSlab-Regular.eot');
   src: local('RobotoSlab-Regular'), local('Roboto Slab Regular'),
@@ -46,11 +56,11 @@
 }
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 :root {
-  --basic-font: 'Open Sans', sans-serif;
+  --basic-font: 'Manrope', sans-serif;
   --basic-font-weight: 600;
   --small-font-size: 12px;
 }
